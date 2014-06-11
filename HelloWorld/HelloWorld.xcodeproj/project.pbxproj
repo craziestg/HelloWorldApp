@@ -19,6 +19,8 @@
 		3EFD958319481B3A0014356A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFD956B19481B390014356A /* UIKit.framework */; };
 		3EFD958B19481B3A0014356A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD958919481B3A0014356A /* InfoPlist.strings */; };
 		3EFD958D19481B3A0014356A /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD958C19481B3A0014356A /* HelloWorldTests.m */; };
+		3EFD959C194820200014356A /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD959A194820200014356A /* HelloWorldViewController.m */; };
+		3EFD959D194820200014356A /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD959B194820200014356A /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		3EFD958819481B3A0014356A /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		3EFD958A19481B3A0014356A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3EFD958C19481B3A0014356A /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		3EFD9599194820200014356A /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		3EFD959A194820200014356A /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		3EFD959B194820200014356A /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				3EFD957719481B390014356A /* AppDelegate.m */,
 				3EFD957919481B390014356A /* Images.xcassets */,
 				3EFD956E19481B390014356A /* Supporting Files */,
+				3EFD9599194820200014356A /* HelloWorldViewController.h */,
+				3EFD959A194820200014356A /* HelloWorldViewController.m */,
+				3EFD959B194820200014356A /* HelloWorldViewController.xib */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				3EFD957219481B390014356A /* InfoPlist.strings in Resources */,
 				3EFD957A19481B390014356A /* Images.xcassets in Resources */,
+				3EFD959D194820200014356A /* HelloWorldViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EFD957819481B390014356A /* AppDelegate.m in Sources */,
+				3EFD959C194820200014356A /* HelloWorldViewController.m in Sources */,
 				3EFD957419481B390014356A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +447,7 @@
 				3EFD959219481B3A0014356A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EFD959319481B3A0014356A /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +456,7 @@
 				3EFD959519481B3A0014356A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
